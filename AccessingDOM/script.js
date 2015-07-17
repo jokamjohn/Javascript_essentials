@@ -8,4 +8,10 @@ var links = document.getElementsByTagName("a");
 console.log("My links: ", links);
 console.log("My links: ", links.length);
 
+// changing the attribute of an element ..div
+var textDiv = document.getElementById("mainContent");
+textDiv.setAttribute("align", "right");
+
+var sideBar = document.getElementById("sidebar");
+console.log("Inner content of the div: ", sideBar.innerHTML);
 
